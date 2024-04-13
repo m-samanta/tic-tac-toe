@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="row">
+      <span>Tic Tac Toe</span>
+      <h1>X's Turn</h1>
+      <div class="board">
+        <button class="board__square"></button>
+        <button class="board__square"></button>
+        <button class="board__square"></button>
+        <button class="board__square"></button>
+        <button class="board__square"></button>
+        <button class="board__square"></button>
+        <button class="board__square"></button>
+        <button class="board__square"></button>
+        <button class="board__square"></button>
+      </div>
+      <div class="first__move__wrapper">
+        <span>First Move:</span>
+        <input class="first__move__x" type="radio" id="X" name="firstMove" value="X" checked />
+        <label for="X">X</label>
+        <input class="first__move__o" type="radio" id="O" name="firstMove" value="O" />
+        <label for="O">O</label>
+    </div>    
+      <button class="restart" onclick="restartGame()">Restart Game</button>
+    </div>
+  </body>
+</html>
